@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS Styles */
+        body {
+background-image:url("https://images8.alphacoders.com/440/440476.jpg");
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-image:url("https://static.vecteezy.com/system/resources/previews/001/838/464/non_2x/golden-black-premium-background-free-vector.jpg");
+            color: white;
+            padding: 20px;
+        }
+
+img{
+border-radius:50%;
+}
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .project {
+            text-align: center;
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+    <title>Your Portfolio</title>
+</head>
+<body text="skyblue">
+    <header>
+        <h1>Raveendthra</h1>
+        <p>Full Stack Developer</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Raveendthra, I,want to become a one of the Business man. I am 21 years old. <br>I complete my degree at Government art college autonomous karur.
+My qualification is B.Sc computer science.<br> I wish to become Frontend developer.</p>
+    </section>
+
+    <section id="profile">
+        <h2>Profile</h2>
+<img src="C:\Users\haris\OneDrive\Desktop\ravee.jpg">
+        <p>I am Ravee.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <a href="#project">project1</a>
+ <a href="#project">project2</a>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+  <a href="https://instagram.com/silent_boy_ravee?igshid=OGQ5ZDc2ODk2ZA==" target="blank">instagram:-</a>    </section>
+    
+    <footer>
+        <p>&copy; 2023 ravee</p>
+    </footer>
+
+    <script>
+        // JavaScript code
+        // Function to add a smooth scroll effect to navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
